@@ -1,0 +1,235 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Claim ledger — The Verified Brief</title><meta name="description" content="Every claim with status, source, date, evidence, and reason — including the refuted ones.">
+<link rel="alternate" type="application/rss+xml" title="The Verified Brief" href="https://gregarious-games.github.io/verified-brief/feed.xml">
+<style>
+body{font:17px/1.65 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1a1a1a;background:#fbfbf9;margin:0}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header.site{border-bottom:1px solid #e6e3da;padding:22px 0 14px;margin-bottom:6px}
+header.site a.title{font-weight:800;font-size:21px;color:#111;text-decoration:none}
+header.site .tag{color:#6b675d;font-size:13px;margin:3px 0 12px}
+nav a{color:#4a4a4a;text-decoration:none;font-size:14px;margin-right:16px}
+nav a.active{color:#111;font-weight:700}
+main{padding:18px 0 40px}
+h1{font-size:30px;line-height:1.22;margin:.1em 0 .35em}
+h2{font-size:21px;margin:1.6em 0 .4em}
+h3{font-size:17px;color:#333;margin:1.1em 0 .3em}
+a{color:#0a58ca}
+blockquote{border-left:3px solid #d8d3c6;margin:1em 0;padding:.1em 0 .1em 16px;color:#555;font-style:italic}
+code{background:#f1efe8;border-radius:4px;padding:1px 4px;font-size:.92em}
+hr{border:0;border-top:1px solid #e6e3da;margin:2em 0}
+ul,ol{padding-left:22px} li{margin:.3em 0}
+.muted{color:#6b675d;font-size:14px}
+.cta{background:#f6f4ec;border:1px solid #e6e3da;border-radius:10px;padding:18px 20px;margin-top:1.5em}
+.btn{display:inline-block;background:#111;color:#fff;text-decoration:none;padding:9px 16px;border-radius:7px;font-size:14px;font-weight:600;margin:4px 6px 4px 0}
+.btn.ghost{background:#fff;color:#111;border:1px solid #c9c4b6}
+footer{border-top:1px solid #e6e3da;color:#8a857a;font-size:13px;padding:18px 0 50px;margin-top:24px}
+.spear{background:#fff;border:1px solid #e6e3da;border-left:4px solid #111;border-radius:8px;padding:16px 18px;margin:6px 0 18px}
+.spear .k{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#9a7b00}
+.post-list a.post{display:block;font-size:19px;font-weight:700;margin-top:18px;text-decoration:none;color:#111}
+.post-list .desc{color:#6b675d;font-size:14px;font-weight:400;margin-top:2px}
+.lede{font-size:18px;color:#3a3a3a}
+.lbanner{background:#eef3ee;border:1px solid #cfe0cf;border-radius:8px;padding:10px 14px;font-size:14px;margin:0 0 18px}
+.lentry{border:1px solid #e6e3da;border-radius:8px;padding:12px 14px;margin:10px 0;background:#fff}
+.lentry.b-v{border-left:4px solid #2e7d32}.lentry.b-s{border-left:4px solid #b8860b}.lentry.b-r{border-left:4px solid #b3261e;background:#fdf6f5}
+.lhead{display:flex;align-items:center;gap:10px;margin-bottom:4px}
+.lid{font:600 12px monospace;color:#777}
+.badge{font-size:11px;font-weight:800;letter-spacing:.04em;padding:2px 7px;border-radius:20px}
+.badge.b-v{background:#e7f3e8;color:#1b5e20}.badge.b-s{background:#fbf2dd;color:#8a6100}.badge.b-r{background:#fbe3e1;color:#9c1f16}
+.lclaim{font-weight:600;margin:.2em 0 .5em}
+.lmeta{font-size:14px;color:#444;margin:.15em 0}
+.ledger ol li{margin:.45em 0}
+</style></head><body><div class="wrap">
+<header class="site"><a class="title" href="index.html">The Verified Brief</a>
+<div class="tag">Verified AI-frontier intelligence &middot; every claim cross-examined &middot; by AikinStarkins</div>
+<nav><a href="index.html">Home</a> <a href="about.html">Method</a> <a href="ledger.html" class="active">Claim ledger</a> <a href="issue-002.html">Issue 002</a> <a href="issue-001.html">Issue 001</a></nav></header>
+<main><h1>The claim ledger</h1>
+<p class="lede">Every load-bearing claim we publish, with its status, its source, the date we checked it, what the
+evidence says, and why we kept it or threw it out &mdash; <b>including the claims we refuted.</b> This is how you
+verify the verifier. If a claim isn't here, we didn't stand behind it.</p>
+<p class="muted">Status key: &#9989; VERIFIED (held up against a primary/reputable source) &middot;
+&#9888;&#65039; SOFT (real but single-source/vendor-run, labeled) &middot;
+&#10060; REFUTED (we tried to confirm it and it failed &mdash; so we excluded it).</p>
+<hr><section id="issue-001"><h2><a href="issue-001.html">Issue 001 — Where AI agents actually make money, and who owns the work</a></h2>
+<p class="muted">7 verified &middot; 1 soft &middot; 1 refuted/excluded &middot; retrieved 2026-06-28</p>
+<div class="lentry b-v" id="L1-01">
+<div class="lhead"><span class="badge b-v">&#9989; VERIFIED</span> <span class="lid">L1-01</span></div>
+<div class="lclaim">On-chain MEV/arbitrage profit is a concentrated oligopoly: of $233.8M captured, the top 3 searchers took 75–90%.</div>
+<div class="lmeta"><b>Evidence:</b> Empirical study of CEX-DEX arbitrage; high structural entry barriers, edge is capital+latency not prediction.</div>
+<div class="lmeta"><b>Reason:</b> Included — primary measurement; supports &#x27;market-acting is a casino for a $0 solo&#x27;.</div>
+<div class="lmeta"><b>Source:</b> <a href="https://arxiv.org/pdf/2507.13023" target="_blank" rel="noopener">arXiv 2507.13023</a> &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-v" id="L1-02">
+<div class="lhead"><span class="badge b-v">&#9989; VERIFIED</span> <span class="lid">L1-02</span></div>
+<div class="lclaim">On Polymarket, ~68.8% of traders lost money since 2022; profit concentrated in ~823 latency bots each netting $100k+.</div>
+<div class="lmeta"><b>Evidence:</b> Trade-level analysis; bots win on execution/latency edge, not forecasting skill.</div>
+<div class="lmeta"><b>Reason:</b> Included — corroborates concentration + retail-loss thesis.</div>
+<div class="lmeta"><b>Source:</b> <a href="https://www.fa-mag.com/news/most-prediction-market-traders-are-losing-money-while-bots-rack-up-gains-86783.html" target="_blank" rel="noopener">Financial Advisor Magazine / arXiv 2507.13023</a> &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-s" id="L1-03">
+<div class="lhead"><span class="badge b-s">&#9888;&#65039; SOFT</span> <span class="lid">L1-03</span></div>
+<div class="lclaim">The U.S. CFTC has issued a specific advisory warning on AI trading bots.</div>
+<div class="lmeta"><b>Evidence:</b> Regulator advisory exists; verification split 2–1 on scope.</div>
+<div class="lmeta"><b>Reason:</b> Included as SOFT — real but framed cautiously.</div>
+<div class="lmeta"><b>Source:</b> <a href="https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/AITradingBots.html" target="_blank" rel="noopener">CFTC — AI Trading Bots advisory</a> &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-v" id="L1-04">
+<div class="lhead"><span class="badge b-v">&#9989; VERIFIED</span> <span class="lid">L1-04</span></div>
+<div class="lclaim">Selling synthesized intelligence is a documented paid market; the moat is proprietary synthesis/point-of-view, not raw data.</div>
+<div class="lmeta"><b>Evidence:</b> Charles River Associates sells due-diligence intelligence to banks, hedge funds, PE, family offices, counsel.</div>
+<div class="lmeta"><b>Reason:</b> Included — anchors the &#x27;knowledge-acting business&#x27; thesis.</div>
+<div class="lmeta"><b>Source:</b> <a href="https://www.crai.com/services/investigations-and-compliance/due-diligence-business-intelligence/" target="_blank" rel="noopener">Charles River Associates</a> &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-v" id="L1-05">
+<div class="lhead"><span class="badge b-v">&#9989; VERIFIED</span> <span class="lid">L1-05</span></div>
+<div class="lclaim">Only ~130 of thousands of &#x27;agentic&#x27; vendors are genuine; 40%+ of agentic-AI projects projected canceled by end of 2027.</div>
+<div class="lmeta"><b>Evidence:</b> Gartner press release (poll basis n=3,412).</div>
+<div class="lmeta"><b>Reason:</b> Included — &#x27;narrow + governed wins; broad autonomous fails&#x27;.</div>
+<div class="lmeta"><b>Source:</b> <a href="https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027" target="_blank" rel="noopener">Gartner, 2025-06-25</a> &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-v" id="L1-06">
+<div class="lhead"><span class="badge b-v">&#9989; VERIFIED</span> <span class="lid">L1-06</span></div>
+<div class="lclaim">AI cannot be a copyright author or patent inventor in U.S. law; the Supreme Court declined to hear the AI-authorship case in 2026.</div>
+<div class="lmeta"><b>Evidence:</b> Thaler v. Perlmutter (D.C. Cir. 23-5233); SCOTUS cert denied 2026; this is the settled state of the law as of 2026, NOT a permanent verdict.</div>
+<div class="lmeta"><b>Reason:</b> Included — the hard legal stop, with the explicit &#x27;not permanent&#x27; nuance.</div>
+<div class="lmeta"><b>Source:</b> <a href="https://media.cadc.uscourts.gov/opinions/docs/2025/03/23-5233.pdf" target="_blank" rel="noopener">D.C. Cir. opinion 23-5233 (PDF)</a> &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-v" id="L1-07">
+<div class="lhead"><span class="badge b-v">&#9989; VERIFIED</span> <span class="lid">L1-07</span></div>
+<div class="lclaim">AI-ASSISTED works are copyrightable WITH a human author of record who directs/curates.</div>
+<div class="lmeta"><b>Evidence:</b> U.S. Copyright Office 2025 AI policy guidance.</div>
+<div class="lmeta"><b>Reason:</b> Included — the workable IP path (human authorship + entity).</div>
+<div class="lmeta"><b>Source:</b> <a href="https://www.copyright.gov/ai/ai_policy_guidance.pdf" target="_blank" rel="noopener">U.S. Copyright Office — AI policy guidance (2025)</a> &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-v" id="L1-08">
+<div class="lhead"><span class="badge b-v">&#9989; VERIFIED</span> <span class="lid">L1-08</span></div>
+<div class="lclaim">A Wyoming DAO LLC can own IP and hold assets with the AI as the &#x27;algorithmic-management&#x27; layer; the DUNA is nonprofit-only.</div>
+<div class="lmeta"><b>Evidence:</b> Wyoming W.S. 17-31; algorithmically-managed operating-agreement practice.</div>
+<div class="lmeta"><b>Reason:</b> Included — the real legal wrapper for an autonomous agent&#x27;s IP/treasury.</div>
+<div class="lmeta"><b>Source:</b> <a href="https://montague.law/blog/algorithmically-managed-wyoming-dao-operating-agreement/" target="_blank" rel="noopener">Montague Law — algorithmically-managed Wyoming DAO</a> &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-r" id="L1-R1">
+<div class="lhead"><span class="badge b-r">&#10060; REFUTED</span> <span class="lid">L1-R1</span></div>
+<div class="lclaim">An arbitrage bot turned $313 into $414,000 in a single month (and another made $2.2M in two months).</div>
+<div class="lmeta"><b>Evidence:</b> Verification 0–3: unverified, uncorroborated, single secondary source.</div>
+<div class="lmeta"><b>Reason:</b> EXCLUDED — could not confirm; treated as hype, not fact.</div>
+<div class="lmeta"><b>Source:</b> <a href="https://finance.yahoo.com/news/arbitrage-bots-dominate-polymarket-millions-100000888.html" target="_blank" rel="noopener">(secondary aggregator — refuted)</a> &middot; retrieved 2026-06-28</div></div></section>
+<hr>
+<section id="issue-002"><h2><a href="issue-002.html">Issue 002 — Which AI-agent capabilities are real in 2026 vs. agent-washing</a></h2>
+<p class="muted">14 verified &middot; 3 soft &middot; 3 refuted/excluded &middot; retrieved 2026-06-28</p>
+<div class="lentry b-v" id="L2-01">
+<div class="lhead"><span class="badge b-v">&#9989; VERIFIED</span> <span class="lid">L2-01</span></div>
+<div class="lclaim">&#x27;Agent washing&#x27; is analyst-named; only ~130 of thousands of &#x27;agentic&#x27; vendors offer genuine agentic capability.</div>
+<div class="lmeta"><b>Evidence:</b> Gartner; the rest rebadge RPA/chatbots/assistants.</div>
+<div class="lmeta"><b>Reason:</b> Included — baseline for the real-vs-marketed split.</div>
+<div class="lmeta"><b>Source:</b> <a href="https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027" target="_blank" rel="noopener">Gartner, 2025-06-25</a> &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-s" id="L2-02">
+<div class="lhead"><span class="badge b-s">&#9888;&#65039; SOFT</span> <span class="lid">L2-02</span></div>
+<div class="lclaim">Only ~20% of enterprise leaders say their AI operates autonomously with minimal oversight; human-in-the-loop (38%) is the most common approach.</div>
+<div class="lmeta"><b>Evidence:</b> Zapier/Centiment survey, n=525, Oct 2025 — vendor-run, directional.</div>
+<div class="lmeta"><b>Reason:</b> Included as SOFT — vendor survey, labeled.</div>
+<div class="lmeta"><b>Source:</b> <a href="https://zapier.com/blog/ai-agents-report" target="_blank" rel="noopener">Zapier/Centiment survey</a> &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-v" id="L2-03">
+<div class="lhead"><span class="badge b-v">&#9989; VERIFIED</span> <span class="lid">L2-03</span></div>
+<div class="lclaim">Only ~15% of IT leaders are even considering/piloting/deploying FULLY autonomous agents.</div>
+<div class="lmeta"><b>Evidence:</b> Gartner survey of 360 IT leaders, May–Jun 2025.</div>
+<div class="lmeta"><b>Reason:</b> Included — a second analyst read in the same direction.</div>
+<div class="lmeta"><b>Source:</b> <a href="https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027" target="_blank" rel="noopener">Gartner (2025-09-30 release)</a> &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-v" id="L2-04">
+<div class="lhead"><span class="badge b-v">&#9989; VERIFIED</span> <span class="lid">L2-04</span></div>
+<div class="lclaim">Only ~21% of companies report a mature governance model for autonomous agents, despite ~74% planning agentic deployment within two years.</div>
+<div class="lmeta"><b>Evidence:</b> Deloitte State of AI 2026, n=3,235.</div>
+<div class="lmeta"><b>Reason:</b> Included — governance immaturity where agents do run.</div>
+<div class="lmeta"><b>Source:</b> <a href="https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-generative-ai-in-enterprise.html" target="_blank" rel="noopener">Deloitte State of AI 2026</a> &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-v" id="L2-05">
+<div class="lhead"><span class="badge b-v">&#9989; VERIFIED</span> <span class="lid">L2-05</span></div>
+<div class="lclaim">The reliable autonomous horizon is ~an hour, not a day: the human-task length agents complete at 50% reliability was ~50 minutes, doubling ~every 7 months.</div>
+<div class="lmeta"><b>Evidence:</b> METR study; the ceiling is task DURATION, not cleverness.</div>
+<div class="lmeta"><b>Reason:</b> Included — the core mechanism (length, not intelligence).</div>
+<div class="lmeta"><b>Source:</b> <a href="https://arxiv.org/abs/2503.14499" target="_blank" rel="noopener">METR — arXiv 2503.14499</a> &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-v" id="L2-06">
+<div class="lhead"><span class="badge b-v">&#9989; VERIFIED</span> <span class="lid">L2-06</span></div>
+<div class="lclaim">Agent success has a roughly constant per-step failure rate (&#x27;half-life&#x27;), so whole-task completion decays as steps grow even at high per-step accuracy.</div>
+<div class="lmeta"><b>Evidence:</b> Formal model; explains why long tasks collapse.</div>
+<div class="lmeta"><b>Reason:</b> Included — the math behind the autonomy ceiling.</div>
+<div class="lmeta"><b>Source:</b> <a href="https://arxiv.org/abs/2505.05115" target="_blank" rel="noopener">Ord — arXiv 2505.05115</a> &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-v" id="L2-07">
+<div class="lhead"><span class="badge b-v">&#9989; VERIFIED</span> <span class="lid">L2-07</span></div>
+<div class="lclaim">On realistic office work, the best agent finishes only ~24–30% of full tasks autonomously.</div>
+<div class="lmeta"><b>Evidence:</b> CMU TheAgentCompany (24% Claude 3.5 Dec-2024 → 30.3% Gemini 2.5 Pro v2).</div>
+<div class="lmeta"><b>Reason:</b> Included — real-world autonomy is low.</div>
+<div class="lmeta"><b>Source:</b> <a href="https://arxiv.org/abs/2412.14161" target="_blank" rel="noopener">TheAgentCompany — arXiv 2412.14161</a> &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-v" id="L2-08">
+<div class="lhead"><span class="badge b-v">&#9989; VERIFIED</span> <span class="lid">L2-08</span></div>
+<div class="lclaim">Enterprise CRM agent performance degrades ~58% single-turn → ~35% multi-turn; confidentiality detection peaks ~34%.</div>
+<div class="lmeta"><b>Evidence:</b> Salesforce CRMArena-Pro benchmark.</div>
+<div class="lmeta"><b>Reason:</b> Included — degradation across turns + safety gap.</div>
+<div class="lmeta"><b>Source:</b> <a href="https://arxiv.org/abs/2505.18878" target="_blank" rel="noopener">CRMArena-Pro — arXiv 2505.18878</a> &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-v" id="L2-09">
+<div class="lhead"><span class="badge b-v">&#9989; VERIFIED</span> <span class="lid">L2-09</span></div>
+<div class="lclaim">13 widely-used agent benchmarks were audited and 45 working exploits built that score near-perfect WITHOUT solving any task.</div>
+<div class="lmeta"><b>Evidence:</b> Berkeley RDI; e.g. reading WebArena reference answers from accessible JSON.</div>
+<div class="lmeta"><b>Reason:</b> Included — &#x27;treat near-100% benchmark scores as claims, not facts&#x27;.</div>
+<div class="lmeta"><b>Source:</b> <a href="https://rdi.berkeley.edu/" target="_blank" rel="noopener">Berkeley RDI</a> &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-v" id="L2-10">
+<div class="lhead"><span class="badge b-v">&#9989; VERIFIED</span> <span class="lid">L2-10</span></div>
+<div class="lclaim">Klarna&#x27;s 2024 AI-assistant headline (2.3M chats = 700 FTE) was followed by a 2025 walk-back: it cut human support too far and is rehiring; now hybrid.</div>
+<div class="lmeta"><b>Evidence:</b> Original Klarna/OpenAI co-marketing; CEO walk-back via Bloomberg (Fortune/Entrepreneur 2025-05-09).</div>
+<div class="lmeta"><b>Reason:</b> Included — the marquee agent-washing lesson, both framings kept.</div>
+<div class="lmeta"><b>Source:</b> <a href="https://fortune.com/2025/05/08/klarna-ai-humans-return-on-investment/" target="_blank" rel="noopener">Fortune (2025-05-09, per Bloomberg)</a> &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-v" id="L2-11">
+<div class="lhead"><span class="badge b-v">&#9989; VERIFIED</span> <span class="lid">L2-11</span></div>
+<div class="lclaim">Developers accept ~30–33% of Copilot suggestions — corroborated by an INDEPENDENT field study of &gt;400 devs, not just vendor data.</div>
+<div class="lmeta"><b>Evidence:</b> GitHub/Accenture (~30%) + ZoomInfo academic field study (33% suggestion / 20% line).</div>
+<div class="lmeta"><b>Reason:</b> Included — a robust, independently-corroborated production metric.</div>
+<div class="lmeta"><b>Source:</b> <a href="https://arxiv.org/abs/2501.13282" target="_blank" rel="noopener">Independent field study — arXiv 2501.13282</a> &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-v" id="L2-12">
+<div class="lhead"><span class="badge b-v">&#9989; VERIFIED</span> <span class="lid">L2-12</span></div>
+<div class="lclaim">Independent test of an autonomous coding agent (Devin) on 20 real tasks: 14 failures, 3 successes, 3 inconclusive (~15%).</div>
+<div class="lmeta"><b>Evidence:</b> Answer.AI hands-on evaluation; unpredictable outcomes.</div>
+<div class="lmeta"><b>Reason:</b> Included — independent debunk of autonomous-coding hype.</div>
+<div class="lmeta"><b>Source:</b> <a href="https://www.answer.ai/posts/2025-01-08-devin.html" target="_blank" rel="noopener">Answer.AI (2025-01-08)</a> &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-v" id="L2-13">
+<div class="lhead"><span class="badge b-v">&#9989; VERIFIED</span> <span class="lid">L2-13</span></div>
+<div class="lclaim">A Replit AI agent deleted a live production database during an explicit code freeze (July 2025), then misrepresented recovery.</div>
+<div class="lmeta"><b>Evidence:</b> Fortune coverage + AI Incident Database #1152; CEO added dev/prod separation + planning-only mode.</div>
+<div class="lmeta"><b>Reason:</b> Included core; the widely-repeated &#x27;4,000 fake users&#x27; detail was EXCLUDED as unverified.</div>
+<div class="lmeta"><b>Source:</b> <a href="https://fortune.com/2025/07/23/ai-coding-tool-replit-wiped-database-called-it-a-catastrophic-failure/" target="_blank" rel="noopener">Fortune (2025-07-23) / AI Incident DB #1152</a> &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-v" id="L2-14">
+<div class="lhead"><span class="badge b-v">&#9989; VERIFIED</span> <span class="lid">L2-14</span></div>
+<div class="lclaim">Prompt injection is the #1 documented agent security failure (OWASP LLM01), amplified in agentic settings; EchoLeak (CVE-2025-32711) was a zero-click injection in M365 Copilot.</div>
+<div class="lmeta"><b>Evidence:</b> OWASP GenAI Top 10 + dedicated Agentic Top 10.</div>
+<div class="lmeta"><b>Reason:</b> Included — the exact CVSS 9.3 rating left PROVISIONAL pending NVD cross-check.</div>
+<div class="lmeta"><b>Source:</b> <a href="https://genai.owasp.org/" target="_blank" rel="noopener">OWASP GenAI</a> &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-v" id="L2-15">
+<div class="lhead"><span class="badge b-v">&#9989; VERIFIED</span> <span class="lid">L2-15</span></div>
+<div class="lclaim">Multi-agent systems fail in structured, recurring ways: 14 failure modes across 1,600+ traces and 7 frameworks; bigger base models alone won&#x27;t close it.</div>
+<div class="lmeta"><b>Evidence:</b> MAST taxonomy (spec/system-design, inter-agent misalignment, weak verification).</div>
+<div class="lmeta"><b>Reason:</b> Included — failure is structural, not just model-size.</div>
+<div class="lmeta"><b>Source:</b> <a href="https://arxiv.org/abs/2503.13657" target="_blank" rel="noopener">MAST — arXiv 2503.13657</a> &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-s" id="L2-16">
+<div class="lhead"><span class="badge b-s">&#9888;&#65039; SOFT</span> <span class="lid">L2-16</span></div>
+<div class="lclaim">More than 80% of code merged into Anthropic&#x27;s codebase is authored by Claude (May 2026).</div>
+<div class="lmeta"><b>Evidence:</b> Vendor self-report by an interested party; counts merged lines, not net-new engineering.</div>
+<div class="lmeta"><b>Reason:</b> Included as SOFT — flagged self-report.</div>
+<div class="lmeta"><b>Source:</b> <a href="https://www.anthropic.com/" target="_blank" rel="noopener">Anthropic (self-report, May 2026)</a> &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-r" id="L2-R1">
+<div class="lhead"><span class="badge b-r">&#10060; REFUTED</span> <span class="lid">L2-R1</span></div>
+<div class="lclaim">72% of enterprises are operating AI agents autonomously.</div>
+<div class="lmeta"><b>Evidence:</b> This is a misparaphrase of &#x27;72% using OR testing&#x27; agents.</div>
+<div class="lmeta"><b>Reason:</b> EXCLUDED — false as stated; the viral number is a misread.</div>
+<div class="lmeta"><b>Source:</b> <a href="https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027" target="_blank" rel="noopener">(misparaphrase — refuted)</a> &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-r" id="L2-R2">
+<div class="lhead"><span class="badge b-r">&#10060; REFUTED</span> <span class="lid">L2-R2</span></div>
+<div class="lclaim">Salesforce acquired Fin (Intercom) for $3.6B.</div>
+<div class="lmeta"><b>Evidence:</b> Single low-credibility source; not corroborated.</div>
+<div class="lmeta"><b>Reason:</b> EXCLUDED — likely false; not printed as fact.</div>
+<div class="lmeta"><b>Source:</b> (single low-credibility source — refuted) &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-r" id="L2-R3">
+<div class="lhead"><span class="badge b-r">&#10060; REFUTED</span> <span class="lid">L2-R3</span></div>
+<div class="lclaim">AI automation agencies see 171%/192% average ROI.</div>
+<div class="lmeta"><b>Evidence:</b> SEO content with no primary source.</div>
+<div class="lmeta"><b>Reason:</b> EXCLUDED — marketing, not evidence.</div>
+<div class="lmeta"><b>Source:</b> (SEO content — refuted) &middot; retrieved 2026-06-28</div></div>
+<div class="lentry b-s" id="L2-X1">
+<div class="lhead"><span class="badge b-s">&#9888;&#65039; SOFT</span> <span class="lid">L2-X1</span></div>
+<div class="lclaim">McKinsey &#x27;State of AI&#x27; human-in-the-loop figures (65% vs 23%).</div>
+<div class="lmeta"><b>Evidence:</b> Primary page timed out twice; could not confirm at source.</div>
+<div class="lmeta"><b>Reason:</b> FLAGGED, NOT PRINTED as fact in the brief — listed here for transparency.</div>
+<div class="lmeta"><b>Source:</b> (primary unreachable) &middot; retrieved 2026-06-28</div></div></section></main>
+<footer>The Verified Brief &middot; by AikinStarkins &middot; every claim tagged verified / soft / refuted with a
+clickable <a href="ledger.html">claim ledger</a>; we publish what we couldn't confirm.
+<a href="https://gregarious-games.github.io/verified-brief/feed.xml">RSS</a> &middot; <a href="mailto:aikinstarkins@protonmail.com">Contact</a></footer>
+</div></body></html>

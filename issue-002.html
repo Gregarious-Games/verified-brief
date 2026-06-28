@@ -4,11 +4,11 @@
 <link rel="alternate" type="application/rss+xml" title="The Verified Brief" href="https://gregarious-games.github.io/verified-brief/feed.xml">
 <style>
 body{font:17px/1.65 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1a1a1a;background:#fbfbf9;margin:0}
-.wrap{max-width:720px;margin:0 auto;padding:0 20px}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
 header.site{border-bottom:1px solid #e6e3da;padding:22px 0 14px;margin-bottom:6px}
 header.site a.title{font-weight:800;font-size:21px;color:#111;text-decoration:none}
 header.site .tag{color:#6b675d;font-size:13px;margin:3px 0 12px}
-nav a{color:#4a4a4a;text-decoration:none;font-size:14px;margin-right:18px}
+nav a{color:#4a4a4a;text-decoration:none;font-size:14px;margin-right:16px}
 nav a.active{color:#111;font-weight:700}
 main{padding:18px 0 40px}
 h1{font-size:30px;line-height:1.22;margin:.1em 0 .35em}
@@ -17,12 +17,9 @@ h3{font-size:17px;color:#333;margin:1.1em 0 .3em}
 a{color:#0a58ca}
 blockquote{border-left:3px solid #d8d3c6;margin:1em 0;padding:.1em 0 .1em 16px;color:#555;font-style:italic}
 code{background:#f1efe8;border-radius:4px;padding:1px 4px;font-size:.92em}
-pre{background:#f1efe8;border-radius:6px;padding:12px;overflow:auto}
 hr{border:0;border-top:1px solid #e6e3da;margin:2em 0}
-ul,ol{padding-left:22px}
-li{margin:.3em 0}
+ul,ol{padding-left:22px} li{margin:.3em 0}
 .muted{color:#6b675d;font-size:14px}
-.ledger ol li{margin:.45em 0}
 .cta{background:#f6f4ec;border:1px solid #e6e3da;border-radius:10px;padding:18px 20px;margin-top:1.5em}
 .btn{display:inline-block;background:#111;color:#fff;text-decoration:none;padding:9px 16px;border-radius:7px;font-size:14px;font-weight:600;margin:4px 6px 4px 0}
 .btn.ghost{background:#fff;color:#111;border:1px solid #c9c4b6}
@@ -32,11 +29,21 @@ footer{border-top:1px solid #e6e3da;color:#8a857a;font-size:13px;padding:18px 0 
 .post-list a.post{display:block;font-size:19px;font-weight:700;margin-top:18px;text-decoration:none;color:#111}
 .post-list .desc{color:#6b675d;font-size:14px;font-weight:400;margin-top:2px}
 .lede{font-size:18px;color:#3a3a3a}
+.lbanner{background:#eef3ee;border:1px solid #cfe0cf;border-radius:8px;padding:10px 14px;font-size:14px;margin:0 0 18px}
+.lentry{border:1px solid #e6e3da;border-radius:8px;padding:12px 14px;margin:10px 0;background:#fff}
+.lentry.b-v{border-left:4px solid #2e7d32}.lentry.b-s{border-left:4px solid #b8860b}.lentry.b-r{border-left:4px solid #b3261e;background:#fdf6f5}
+.lhead{display:flex;align-items:center;gap:10px;margin-bottom:4px}
+.lid{font:600 12px monospace;color:#777}
+.badge{font-size:11px;font-weight:800;letter-spacing:.04em;padding:2px 7px;border-radius:20px}
+.badge.b-v{background:#e7f3e8;color:#1b5e20}.badge.b-s{background:#fbf2dd;color:#8a6100}.badge.b-r{background:#fbe3e1;color:#9c1f16}
+.lclaim{font-weight:600;margin:.2em 0 .5em}
+.lmeta{font-size:14px;color:#444;margin:.15em 0}
+.ledger ol li{margin:.45em 0}
 </style></head><body><div class="wrap">
 <header class="site"><a class="title" href="index.html">The Verified Brief</a>
 <div class="tag">Verified AI-frontier intelligence &middot; every claim cross-examined &middot; by AikinStarkins</div>
-<nav><a href="index.html">Home</a> <a href="about.html">Method</a> <a href="issue-002.html" class="active">Issue 002</a> <a href="issue-001.html">Issue 001</a></nav></header>
-<main><h1>THE VERIFIED BRIEF — Issue 002</h1>
+<nav><a href="index.html">Home</a> <a href="about.html">Method</a> <a href="ledger.html">Claim ledger</a> <a href="issue-002.html" class="active">Issue 002</a> <a href="issue-001.html">Issue 001</a></nav></header>
+<main><div class="lbanner">Every claim below is in the <a href="ledger.html#issue-002"><b>claim ledger</b></a> &mdash; 20 entries with status, source, date, evidence, and the reason we kept or killed each one. <a href="ledger.html#issue-002">Verify the verifier &rarr;</a></div><h1>THE VERIFIED BRIEF — Issue 002</h1>
 <h3>Which autonomous-AI-agent capabilities are actually REAL in 2026 — and which are agent-washing</h3>
 <p><em>Every claim below was put through an adversarial verification pass (default = refute; load-bearing numbers
 re-checked against primary or reputable sources) and is tagged ✅ verified / ⚠️ soft / ❌ refuted, with sources.
@@ -165,22 +172,26 @@ rates (primary 403-blocked); Sierra/Decagon named-customer rates and Anthropic "
 (aggregator/self-report only); EchoLeak CVSS 9.3 and the latest OSWorld/CUGA decimals (re-confirm at primary
 before reuse). </em><em>Refuted/excluded:</em><em> "171%/192% average agentic ROI" (SEO-only, no primary); "72% of enterprises
 operating autonomously" (a misparaphrase of "72% using OR testing"); "Salesforce acquired Fin for $3.6B" (single
-low-credibility source, likely false). We publish what survives.</em></p><hr><section class="ledger"><h2>Source trail</h2><p class="muted">Every load-bearing claim above traces to a primary or reputable source. Click through and check us — that is the point.</p><ol><li><a href="https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027" rel="noopener" target="_blank">Gartner — agent-washing &amp; 40% cancellation (2025-06-25)</a></li>
-<li><a href="https://arxiv.org/abs/2503.14499" rel="noopener" target="_blank">METR — measuring AI ability to complete long tasks (arXiv 2503.14499)</a></li>
-<li><a href="https://arxiv.org/abs/2505.05115" rel="noopener" target="_blank">Ord — the half-life of agent tasks (arXiv 2505.05115)</a></li>
-<li><a href="https://arxiv.org/abs/2412.14161" rel="noopener" target="_blank">CMU TheAgentCompany (arXiv 2412.14161)</a></li>
-<li><a href="https://arxiv.org/abs/2505.18878" rel="noopener" target="_blank">Salesforce CRMArena-Pro (arXiv 2505.18878)</a></li>
-<li><a href="https://rdi.berkeley.edu/" rel="noopener" target="_blank">Berkeley RDI — agent benchmark exploits</a></li>
-<li><a href="https://arxiv.org/abs/2307.13854" rel="noopener" target="_blank">WebArena (arXiv 2307.13854)</a></li>
-<li><a href="https://arxiv.org/abs/2404.07972" rel="noopener" target="_blank">OSWorld (arXiv 2404.07972)</a></li>
-<li><a href="https://arxiv.org/abs/2503.13657" rel="noopener" target="_blank">MAST — multi-agent failure taxonomy (arXiv 2503.13657)</a></li>
-<li><a href="https://arxiv.org/abs/2501.13282" rel="noopener" target="_blank">Copilot acceptance field study (arXiv 2501.13282)</a></li>
-<li><a href="https://genai.owasp.org/" rel="noopener" target="_blank">OWASP — GenAI / Agentic Top 10</a></li></ol></section><hr><section class="cta"><h2>Get the next verified brief</h2>
+low-credibility source, likely false). We publish what survives.</em></p><hr><section class="ledger"><h2>Source trail</h2><p class="muted">Quick links to the primary sources. Full per-claim accounting (incl. refuted) is in the <a href="ledger.html#issue-002">claim ledger</a>.</p><ol><li><a href="https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027" target="_blank" rel="noopener">Gartner, 2025-06-25</a></li>
+<li><a href="https://zapier.com/blog/ai-agents-report" target="_blank" rel="noopener">Zapier/Centiment survey</a></li>
+<li><a href="https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-generative-ai-in-enterprise.html" target="_blank" rel="noopener">Deloitte State of AI 2026</a></li>
+<li><a href="https://arxiv.org/abs/2503.14499" target="_blank" rel="noopener">METR — arXiv 2503.14499</a></li>
+<li><a href="https://arxiv.org/abs/2505.05115" target="_blank" rel="noopener">Ord — arXiv 2505.05115</a></li>
+<li><a href="https://arxiv.org/abs/2412.14161" target="_blank" rel="noopener">TheAgentCompany — arXiv 2412.14161</a></li>
+<li><a href="https://arxiv.org/abs/2505.18878" target="_blank" rel="noopener">CRMArena-Pro — arXiv 2505.18878</a></li>
+<li><a href="https://rdi.berkeley.edu/" target="_blank" rel="noopener">Berkeley RDI</a></li>
+<li><a href="https://fortune.com/2025/05/08/klarna-ai-humans-return-on-investment/" target="_blank" rel="noopener">Fortune (2025-05-09, per Bloomberg)</a></li>
+<li><a href="https://arxiv.org/abs/2501.13282" target="_blank" rel="noopener">Independent field study — arXiv 2501.13282</a></li>
+<li><a href="https://www.answer.ai/posts/2025-01-08-devin.html" target="_blank" rel="noopener">Answer.AI (2025-01-08)</a></li>
+<li><a href="https://fortune.com/2025/07/23/ai-coding-tool-replit-wiped-database-called-it-a-catastrophic-failure/" target="_blank" rel="noopener">Fortune (2025-07-23) / AI Incident DB #1152</a></li>
+<li><a href="https://genai.owasp.org/" target="_blank" rel="noopener">OWASP GenAI</a></li>
+<li><a href="https://arxiv.org/abs/2503.13657" target="_blank" rel="noopener">MAST — arXiv 2503.13657</a></li>
+<li><a href="https://www.anthropic.com/" target="_blank" rel="noopener">Anthropic (self-report, May 2026)</a></li></ol></section><hr><section class="cta"><h2>Get the next verified brief</h2>
 <p>One brief a week, every claim cross-examined. No tracking, no spam.</p>
 <p><a class="btn" href="https://gregarious-games.github.io/verified-brief/feed.xml">Subscribe via RSS</a>
 <a class="btn ghost" href="mailto:aikinstarkins@protonmail.com?subject=Subscribe%20%E2%80%94%20The%20Verified%20Brief">Email to get on the list</a></p>
-<p class="muted">A one-click email signup is coming. For now, RSS works today, or email me and I add you by hand.</p></section></main>
-<footer>The Verified Brief &middot; by AikinStarkins &middot; we tag every claim verified / soft / refuted,
-link the sources, and publish what we couldn't confirm. <a href="https://gregarious-games.github.io/verified-brief/feed.xml">RSS</a> &middot;
-<a href="mailto:aikinstarkins@protonmail.com">Contact</a></footer>
+<p class="muted">A one-click email signup is coming. RSS works today, or email me and I add you by hand.</p></section></main>
+<footer>The Verified Brief &middot; by AikinStarkins &middot; every claim tagged verified / soft / refuted with a
+clickable <a href="ledger.html">claim ledger</a>; we publish what we couldn't confirm.
+<a href="https://gregarious-games.github.io/verified-brief/feed.xml">RSS</a> &middot; <a href="mailto:aikinstarkins@protonmail.com">Contact</a></footer>
 </div></body></html>
